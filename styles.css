@@ -1,0 +1,94 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    background-color: #000106;
+    color: white;
+}
+body{
+    margin: 0;
+}
+nav{
+    float: right;
+    margin: 50px 200px 0 0;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+nav  a{
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: white;
+}
+nav  a:hover{
+    border-bottom: 2px solid #FF9E00;
+}
+#HERO{
+    background-image: url("./image/fondo-restaurante.jpg");
+    text-align: center;
+    color: white;
+}
+#contenido-hero{
+    padding: 200px;
+    line-height: 10px;
+    background-color: rgb(81, 81, 81, 0.6);
+}
+#contenido-hero > h1{
+    font-size: 60px;
+}
+#hero-amarillo{
+    color: #FF9E00;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 40px;
+}
+#logo{
+    margin-left: 100px;
+}
+/*Concepto  */
+#concepto{
+    background-image: url("./image/concepto.jpg");
+    background-size: cover;
+    text-align: center;
+    padding:  100px;
+    color: white;
+}
+#concepto-dentro{
+    background-color: #575757;
+    padding:  40px;
+    margin:  40px;
+    width: 400px;
+    margin: auto;
+}
+#concepto-dentro p{
+    margin-bottom: 20px;
+}
+#concepto-dentro h2:before{
+    content: '- ';
+}
+#concepto-dentro h2:after{
+    content: ' -';
+}
+#fotos{
+    background-image: url("./image/fotos.jpg");
+    background-size: cover;
+    padding:  40px;
+}
+#fotos-dentro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 1100px;
+    margin: auto;
+    align-content: center;
+}
+#fotos img{
+   width: 300px;
+   padding: 20px;
+}
+footer{
+    background-color: #575757;
+}

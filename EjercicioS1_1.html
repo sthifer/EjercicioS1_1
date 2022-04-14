@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <a href="./Ejercicio_1.html"><img src="./image/logo-ejercicio1.png" alt="Mozza Bar" width="150px" id="logo"></a>
+        <nav>
+            <ul>
+            <li><a href="#HERO">Home</a></li>
+            <li><a href="#concepto">Concepto</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#carta">Menú</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section ID="HERO">
+        <div id="contenido-hero">
+            <p id="hero-amarillo">Descubre</p>
+            <h1>Mozza Bar</h1>
+            <p>WE ARE OPEN</p>
+        </div>
+    </section>
+
+    <section id="concepto">
+        <div id="concepto-dentro">
+            <h2>CONCEPTO</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perspiciatis aperiam consectetur cumque vero. Ducimus, nisi. Nemo eius recusandae eligendi, saepe optio magni odio libero incidunt quibusdam quas natus assumenda!</P>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aliquid facere. !</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, eaque vero magni harum voluptatibus consequatur inventore quisquam nulla alias explicabo deserunt doloremque, repudiandae ad nesciunt. Maiores nam consequuntur esse atque.</p>
+        </div>
+    </section>
+
+    <section id="fotos">
+        <div id="fotos-dentro">
+            <img src="./image/fondo-restaurante.jpg" alt="foto">
+            <img src="./image/fondo-restaurante.jpg" alt="foto">
+            <img src="./image/fondo-restaurante.jpg" alt="foto">
+            <img src="./image/fondo-restaurante.jpg" alt="foto">
+            <img src="./image/fondo-restaurante.jpg" alt="foto">
+            <img src="./image/fondo-restaurante.jpg" alt="foto">
+        </div>
+    </section>
+
+    <section id="carta">
+        <h2>Carta</h2>
+        <a href="#">Desayunos</a>
+        <a href="#">Carta</a>
+        <a href="#">Cocktails</a>
+
+        <table>
+            <th>Dulces</th>
+            <tr>
+                <td>Croissant</td>
+                <td> 1.40</td>
+            </tr>
+            <tr>
+                <td>Napolitana</td>
+                <td>1.40</td>
+            </tr>
+        </table>
+        <table>
+            <th>Zumos</th>
+            <tr>
+                <td>Naranja</td>
+                <td> 1.40</td>
+            </tr>
+            <tr>
+                <td>Fresa</td>
+                <td>1.40</td>
+            </tr>
+        </table>
+        <table>
+            <th>Salados</th>
+            <tr>
+                <td>Sandwich</td>
+                <td> 1.40</td>
+            </tr>
+            <tr>
+                <td>Tostada</td>
+                <td>1.40</td>
+            </tr>
+        </table>
+        <table>
+            <th>Frapuchino</th>
+            <tr>
+                <td>Coffee</td>
+                <td> 1.40</td>
+            </tr>
+            <tr>
+                <td>Moca</td>
+                <td>1.40</td>
+            </tr>
+        </table>
+        <a href="#">Ver toda la carta</a>
+    </section>
+
+    <section id="reservas">
+        <h2>Reservas</h2>
+        <div>
+            <form action="#">
+                <label for="personas">Personas: </label>
+                <select name="personas" id="personas">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <label for="hora">Hora: </label>
+                <select name="hora" id="hora">
+                    <option value="1000">10:00</option>
+                    <option value="1015">10:15</option>
+                    <option value="1020">10:20</option>
+                </select>
+                <br>
+                <label for="tipomesa">Tipo Mesa: </label>
+                <select name="tipomesa" id="tipomesa">
+                    <option value="grande">Grande</option>
+                    <option value="mediana">Mediana</option>
+                    <option value="pequeña">Pequeña</option>
+                </select>
+                <input type="submit">
+            </form>
+            <p>Sino encuentra disponibilidad, apuntese en la lista de espera</p>
+            <a href="#">Lista de espera</a>
+            <a href="#">Solicitud de grupo</a>
+        </div>
+        <div>
+            <p>Mozzabar food & drinks</p>
+            <p>Conde peñalver</p>
+            <p>28006</p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <aside>
+            <p>Mozza Bar</p>
+            <p>03/06/2014</p>
+            <h3>Abre nueva terraza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias quo facere sit dolor, iure illo saepe velit qui sequi, consequuntur ullam dolorem obcaecati odit dolores unde suscipit ex natus.</p>
+            <p>admin 0 1</p>
+        </aside>
+        <aside>
+            <p>Mozza Bar</p>
+            <p>03/06/2014</p>
+            <h3>Abre nueva terraza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias quo facere sit dolor, iure illo saepe velit qui sequi, consequuntur ullam dolorem obcaecati odit dolores unde suscipit ex natus.</p>
+            <p>admin 0 1</p>
+        </aside>
+        <aside>
+            <p>Mozza Bar</p>
+            <p>03/06/2014</p>
+            <h3>Abre nueva terraza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias quo facere sit dolor, iure illo saepe velit qui sequi, consequuntur ullam dolorem obcaecati odit dolores unde suscipit ex natus.</p>
+            <p>admin 0 1</p>
+        </aside>
+        <a href="#">Ver todas las entradas</a>
+    </section>
+
+    <section id="contacto">
+        <img src="./image/logo-ejercicio1.png" alt="Mozza Bar" width="150px" id="logo">
+        <p>Ven cuando quieras</p>
+        <div>
+            <div>
+                <img src="./image/logo-ejercicio1.png" alt="Mozza Bar" width="150px" id="logo">
+                <p>Conde de peñalver</p>
+            </div>
+            <div>
+                <img src="./image/logo-ejercicio1.png" alt="Mozza Bar" width="150px" id="logo">
+                <p>911111111</p>
+            </div>
+            <div>
+                <img src="./image/logo-ejercicio1.png" alt="Mozza Bar" width="150px" id="logo">
+                <p>hola@mozzabar.es</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="redes">
+        <h2>Síguenos</h2>
+        <div>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <div>
+                <h2>Enlaces de interés</h2>
+                <ul>
+                    <li>aviso legal</li>
+                    <li>cookies</li>
+                </ul>
+            </div>
+            <div>
+                <h2>horarios</h2>
+                <p>lunes a domingo</p>
+                <p>07:30 - 01:30</p>
+            </div>
+            <div>
+                <h2>Contacto</h2>
+                <p>C conde peñalver</p>
+                <a href="tel:+34910258327">910258327</a>
+                <a href="mailto:hola@mozzabar.es">hola@mozzabar.es</a>
+            </div>
+        </section>
+        <section>
+            <p>2017 Todos los derechos reservados</p>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+        </section>
+
+    </footer>
+</body>
+</html>
